@@ -5,5 +5,10 @@
   }
 
   .header .navbar {
-    background-color: transparent !important;
+    background-color: white ;
   }
+.navbar {
+  width: 68%;
+  margin: 0 auto;
+  margin-top: ;
+}
