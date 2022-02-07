@@ -1,5 +1,5 @@
 .header {
-    background: url(./assets/banner.jpg) no-repeat center;
+    background: url("../src/assets/banner.jpg") no-repeat ;
     background-size: cover;
     min-height: 100vh;
   }

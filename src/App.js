@@ -4,9 +4,9 @@ import banner from './assets/banner.jpg';
 function App() {
   return (
     <div>
-    <header className="main-header">
+    <header className="header">
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <a className="navbar-brand" href="#">Navbar</a>
+      <a className="navbar-brand" href="/">Navbar</a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
@@ -14,10 +14,10 @@ function App() {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item active">
-            <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+            <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Link</a>
+            <a className="nav-link" href="/">Link</a>
           </li>
           <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -49,11 +49,6 @@ function App() {
       <li><a class="dropdown-item" href="#">Another link</a></li>
     </ul>
   </div>
-  <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, voluptatem ullam ratione vel voluptate maiores sapiente laborum, laboriosam eligendi quas quis sit tempore cumque repellendus tenetur iste, commodi accusantium? Quaerat!</h1>
-  <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, voluptatem ullam ratione vel voluptate maiores sapiente laborum, laboriosam eligendi quas quis sit tempore cumque repellendus tenetur iste, commodi accusantium? Quaerat!</h1>
-  <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, voluptatem ullam ratione vel voluptate maiores sapiente laborum, laboriosam eligendi quas quis sit tempore cumque repellendus tenetur iste, commodi accusantium? Quaerat!</h1>
-  <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, voluptatem ullam ratione vel voluptate maiores sapiente laborum, laboriosam eligendi quas quis sit tempore cumque repellendus tenetur iste, commodi accusantium? Quaerat!</h1>
-  <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, voluptatem ullam ratione vel voluptate maiores sapiente laborum, laboriosam eligendi quas quis sit tempore cumque repellendus tenetur iste, commodi accusantium? Quaerat!</h1>
     </div>
   );
 }
