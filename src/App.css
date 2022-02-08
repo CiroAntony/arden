@@ -6,7 +6,7 @@
       rgba(5, 12, 34, 0.5),
       rgba(22, 215, 177, 0)),
     url("./assets/banner.jpg");
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-size: cover;
   display: inline-block;
@@ -17,10 +17,37 @@
 }
 
 .navbar {
-  height: 6rem;
+  height: 5.6rem;
   width: 65%;
   margin: 0 auto;
   margin-top: 9%;
+}
+
+img{
+  height: 55px;
+  margin-left: 2rem;
+  margin-top: -8px;
+  display: inline-block;
+}
+li{
+  position: relative;
+  margin-left: 2.5rem;
+}
+
+li::after{
+  content: "";
+  width: 0;
+  height: 4px;
+  background-color: #EF9A2A;
+  position: absolute;
+  bottom: 0;
+  right: 79%;
+  transition: all .5s;
+}
+
+li:hover::after{
+  width: 100%;
+  right: 0;
 }
 
 .nav-item .nav-link{
@@ -33,17 +60,18 @@
 }
 
 .LogoName{
+  letter-spacing: 2px;
   font-family: 'Roboto Mono', monospace;
-  font-size: 2.3rem;
+  font-size: 2rem;
   margin-left: 10%;
-  padding: 0;
+  
 }
 .sublogo{
   font-size: 8px;
   letter-spacing: 2px;
   word-spacing: 4px;
   margin-left: 6.5rem;
-  margin-top: -1rem;
+  margin-top: -.7rem;
 }
 
 .text-banner h1 {
@@ -70,4 +98,34 @@
   width: 22%;
   margin-left: 23%;
   font-size: 15px;
+}
+
+.sub-cons{
+  text-align: center;
+  margin: 4rem 0 0px;
+  padding: 0;
+}
+.hr{
+  background-color: #EF9A2A;
+  height: 4px;
+  width: 12%;
+  margin: 0 auto;
+  border-radius: 9px;
+  margin-bottom: 24px;
+}
+.construimos{
+  background-color: #c4c4c4;
+}
+
+.card-group .card{
+  margin: 14px 33px   ;
+  margin-top: 2%;
+}
+
+.card-img-top{
+  height: 100px;
+  width: 100px;
+  margin-top: 4rem;
+  position: relative;
+  margin-left: 30%;
 }

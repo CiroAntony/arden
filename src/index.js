@@ -1,15 +1,20 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import {render} from 'react-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Nosotros from './components/Nosotros';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+render(
+  <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<App/>}/>
+      <Route path='nosotros' element={<Nosotros/>}/>
+    </Routes>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
