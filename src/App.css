@@ -84,12 +84,13 @@ li:hover::after{
   margin-top: 16%;
 }
 
-.dropdown-divider {
-  color: #EF9A2A;
-  padding: 5px;
+.hr-banner{
   background-color: #EF9A2A;
-  width: 26%;
-  margin-left: 23%;
+  height: 6px;
+  width: 28%;
+  margin-left: 22%;
+  border-radius: 9px;
+  margin-bottom: 24px;
 }
 
 .text-p p {
@@ -113,12 +114,12 @@ li:hover::after{
   border-radius: 9px;
   margin-bottom: 24px;
 }
-.construimos{
-  background-color: #c4c4c4;
+.cards{
+  background-color: rgba(196, 196, 196, 0.5);
 }
 
 .card-group .card{
-  margin: 14px 33px   ;
+  margin: 14px 33px 28px  ;
   margin-top: 2%;
 }
 
@@ -128,4 +129,33 @@ li:hover::after{
   margin-top: 4rem;
   position: relative;
   margin-left: 30%;
+}
+
+.hr1{
+  background-color: #EF9A2A;
+  height: 6px;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 9px;
+  margin-bottom: 24px;
+}
+
+.h5{
+  text-align: center;
+}
+
+.direccion{
+  margin-left: 26%;
+  margin-top: 1.6%;
+  display: inline-block;
+}
+
+.g-maps{
+  margin-top: -15.2%;
+  margin-right: 22%;
+}
+
+iframe{
+  height: 500px;
+  width: 600px;
 }
