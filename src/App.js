@@ -1,9 +1,10 @@
 import "./App.css";
 import logo from '../src/assets/logo.png';
 import hotel from '../src/assets/Hotel.png';
-import multifamiliar from '../src/assets/Multifamiliares.png'
-import vivienda from '../src/assets/Vivienda.png'
-import galeria from '../src/assets/Galerias.png'
+import multifamiliar from '../src/assets/Multifamiliares.png';
+import vivienda from '../src/assets/Vivienda.png';
+import galeria from '../src/assets/Galerias.png';
+import arden from '../src/assets/arden-footer.png';
 import { Link } from "react-router-dom";
 
 function App() {
@@ -122,6 +123,32 @@ function App() {
           <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d39326.230841445664!2d-77.0243459274352!3d-12.067123769255124!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1644353437926!5m2!1ses!2spe" allowfullscreen="" loading="lazy" align="right"></iframe>
         </div>
       </section>
+
+      <footer className="main-footer">
+        <img src={arden} alt="" className="footer-logo" />
+      
+      <ul className="m1">
+        <dd className="li-footer">Inicio</dd>
+        <dd className="li-footer">Empresa</dd>
+        <dd className="li-footer">Servicios</dd>
+        <dd className="li-footer">Equipos</dd>
+        <dd className="li-footer">Clientes</dd>
+      </ul>
+
+      <ul className="m2">
+        <dd className="li-footer">Nuestros Servicios</dd>
+        <dd className="li-footer">Proyectos Ejecutados</dd>
+        <dd className="li-footer">Trabaja con nosotros</dd>
+        <dd className="li-footer">Libro de Reclamaciones</dd>
+        <dd className="li-footer">Protección al consumidor</dd>
+      </ul>
+      <ul>
+        <a href="/"><i class="fa-brands fa-youtube"></i></a>
+        <a href="/"><i class="fa-brands fa-youtube"></i></a>
+        <a href="/"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="/"><i class="fa-brands fa-instagram"></i></a>
+        </ul>
+      </footer>
     </div>
   );
 }
