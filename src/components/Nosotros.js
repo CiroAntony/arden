@@ -1,12 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react'
 
-export default class Nosotros extends Component {
-  render() {
-    return <section>
-        <div className="container">
-            <h2>Nosotros</h2>
-        </div>
-    </section>;
-  }
+export default function Nosotros() {
+  return (
+    <div>
+      
+    </div>
+  )
 }
-

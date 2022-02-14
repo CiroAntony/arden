@@ -7,12 +7,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Nosotros from './components/Nosotros';
+import MainNavbar from './common/MainNavbar';
 
 render(
   <BrowserRouter>
     <Routes>
       <Route path='/' element={<App/>}/>
       <Route path='nosotros' element={<Nosotros/>}/>
+      <Route path='navbar' element={<MainNavbar/>}/>
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')
