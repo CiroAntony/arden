@@ -1,8 +1,5 @@
-.header .navbar {
-    background-color: #ffffff;
-  }
-  
-  .navbar {
+.navbar {
+    background-color: #fff;
     height: 5.6rem;
     width: 65%;
     margin: 0 auto;

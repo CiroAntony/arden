@@ -5,8 +5,7 @@ import logo from '../assets/logo.png';
 
 export default function MainNavbar() {
   return (
-    <header className='main-header'>
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light">
     <div className="container-fluid">
       <a className="navbar-brand" href="/"><img src={logo} alt="" /><span className="LogoName">ARDEN</span><p className="sublogo">EMPRESA CONSTRUCTORA</p></a>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,7 +37,6 @@ export default function MainNavbar() {
       </div>
     </div>
   </nav>
-  </header>
   
   )
 }
